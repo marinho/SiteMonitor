@@ -318,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SitesDataSource.m</string>
+								<string>main.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,14 +326,13 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SitesDataSource.m</string>
+										<string>main.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A18DCC0F12F0C5A800F7E629</string>
+										<string>A104240B12F101B3003BCC92</string>
 										<key>history</key>
 										<array>
-											<string>A131859E12EC352300DA6B29</string>
 											<string>A131859F12EC352300DA6B29</string>
 											<string>A12247D612ED029000FB2FB4</string>
 											<string>A126757B12ED190900AA3227</string>
@@ -355,7 +354,8 @@
 											<string>A11B007F12F0C1F000CE6A1F</string>
 											<string>A11B009A12F0C36D00CE6A1F</string>
 											<string>A11B009B12F0C36D00CE6A1F</string>
-											<string>A11B00BB12F0C50000CE6A1F</string>
+											<string>A104240312F10183003BCC92</string>
+											<string>A104240412F10183003BCC92</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -413,9 +413,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>A18DCC0212F0C53B00F7E629</string>
+				<string>A104240C12F101B3003BCC92</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>A18DCC0312F0C53B00F7E629</string>
+				<string>A104240D12F101B3003BCC92</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -553,10 +553,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>A18DCC0D12F0C53B00F7E629</string>
-		<string>A18DCC0E12F0C53B00F7E629</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>A1CFAAC112E99A71002F51FC</string>
 		<string>/arquivos/Projects/SiteMonitor/SiteMonitor.xcodeproj</string>
 	</array>
@@ -638,7 +634,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>A1CFAAC112E99A71002F51FC</string>
-				<string>A18DCC0412F0C53B00F7E629</string>
+				<string>A104240E12F101B3003BCC92</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

@@ -12,6 +12,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A104241012F10230003BCC92 /* SiteMonitor.icns in Resources */ = {isa = PBXBuildFile; fileRef = A104240F12F10230003BCC92 /* SiteMonitor.icns */; };
 		A126757212ED10A800AA3227 /* BaseException.m in Sources */ = {isa = PBXBuildFile; fileRef = A126757112ED10A800AA3227 /* BaseException.m */; };
 		A131858712EC34C600DA6B29 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = A131858612EC34C600DA6B29 /* AppController.m */; };
 		A131869012ECFE4F00DA6B29 /* WrongStatusCode.m in Sources */ = {isa = PBXBuildFile; fileRef = A131868F12ECFE4F00DA6B29 /* WrongStatusCode.m */; };
@@ -37,6 +38,7 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* SiteMonitor-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SiteMonitor-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* SiteMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiteMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A104240F12F10230003BCC92 /* SiteMonitor.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SiteMonitor.icns; sourceTree = "<group>"; };
 		A126757012ED10A800AA3227 /* BaseException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseException.h; sourceTree = "<group>"; };
 		A126757112ED10A800AA3227 /* BaseException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseException.m; sourceTree = "<group>"; };
 		A131858512EC34C600DA6B29 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A104240F12F10230003BCC92 /* SiteMonitor.icns */,
 				8D1107310486CEB800E47090 /* SiteMonitor-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
@@ -235,6 +238,7 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				A1A38FC812EFB99D00B76E98 /* Preferences.plist in Resources */,
+				A104241012F10230003BCC92 /* SiteMonitor.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
