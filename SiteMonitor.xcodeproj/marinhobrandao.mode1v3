@@ -275,8 +275,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
-									<integer>1</integer>
+									<integer>21</integer>
+									<integer>17</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -311,14 +311,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>main.m</string>
+								<string>SiteMonitor-Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>main.m</string>
+										<string>SiteMonitor-Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A104240B12F101B3003BCC92</string>
+										<string>A1F6EFD512F3241500152FC2</string>
 										<key>history</key>
 										<array>
 											<string>A131859F12EC352300DA6B29</string>
@@ -349,13 +347,14 @@
 											<string>A11BFFDB12F0B46800CE6A1F</string>
 											<string>A11BFFDE12F0B46800CE6A1F</string>
 											<string>A11B001512F0B91B00CE6A1F</string>
-											<string>A11B004412F0BD5B00CE6A1F</string>
-											<string>A11B005812F0BF6100CE6A1F</string>
 											<string>A11B007F12F0C1F000CE6A1F</string>
 											<string>A11B009A12F0C36D00CE6A1F</string>
 											<string>A11B009B12F0C36D00CE6A1F</string>
 											<string>A104240312F10183003BCC92</string>
-											<string>A104240412F10183003BCC92</string>
+											<string>A104241312F102AC003BCC92</string>
+											<string>A104241412F102AC003BCC92</string>
+											<string>A104241512F102AC003BCC92</string>
+											<string>A104241612F102AC003BCC92</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -413,9 +412,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>A104240C12F101B3003BCC92</string>
+				<string>A1F6EFD012F3232B00152FC2</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>A104240D12F101B3003BCC92</string>
+				<string>A1F6EFD112F3232B00152FC2</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -553,6 +552,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>A1F6EFDD12F3241500152FC2</string>
+		<string>A1F6EFDE12F3241500152FC2</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>A1CFAAC112E99A71002F51FC</string>
 		<string>/arquivos/Projects/SiteMonitor/SiteMonitor.xcodeproj</string>
 	</array>
@@ -634,7 +637,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>A1CFAAC112E99A71002F51FC</string>
-				<string>A104240E12F101B3003BCC92</string>
+				<string>A1F6EFD212F3232B00152FC2</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -756,13 +759,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>A18DCC0512F0C53B00F7E629</string>
+				<string>A1F6EFD612F3241500152FC2</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>A18DCC0612F0C53B00F7E629</string>
-				<string>A18DCC0712F0C53B00F7E629</string>
-				<string>A18DCC0812F0C53B00F7E629</string>
-				<string>A18DCC0912F0C53B00F7E629</string>
-				<string>A18DCC0A12F0C53B00F7E629</string>
+				<string>A1F6EFD712F3241500152FC2</string>
+				<string>A1F6EFD812F3241500152FC2</string>
+				<string>A1F6EFD912F3241500152FC2</string>
+				<string>A1F6EFDA12F3241500152FC2</string>
+				<string>A1F6EFDB12F3241500152FC2</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -924,7 +927,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>A18DCC0B12F0C53B00F7E629</string>
+				<string>A1F6EFDC12F3241500152FC2</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

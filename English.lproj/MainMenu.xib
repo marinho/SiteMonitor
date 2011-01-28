@@ -12,8 +12,6 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="371"/>
-			<integer value="701"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -57,14 +55,6 @@
 							<string key="NSTitle">SiteMonitor</string>
 							<object class="NSMutableArray" key="NSMenuItems">
 								<bool key="EncodedWithXMLCoder">YES</bool>
-								<object class="NSMenuItem" id="238522557">
-									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">About SiteMonitor</string>
-									<string key="NSKeyEquiv"/>
-									<int key="NSMnemonicLoc">2147483647</int>
-									<reference key="NSOnImage" ref="35465992"/>
-									<reference key="NSMixedImage" ref="502551668"/>
-								</object>
 								<object class="NSMenuItem" id="304266470">
 									<reference key="NSMenu" ref="110575045"/>
 									<bool key="NSIsDisabled">YES</bool>
@@ -387,7 +377,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{335, 308}, {495, 442}}</string>
 				<int key="NSWTFlags">1954021376</int>
-				<string key="NSWindowTitle">SiteMonitor Preferences</string>
+				<string key="NSWindowTitle">SiteMonitor</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<string key="NSWindowContentMaxSize">{1.79769e+308, 1.79769e+308}</string>
@@ -396,6 +386,7 @@
 					<int key="NSvFlags">319</int>
 					<string key="NSFrameSize">{495, 442}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1920, 1178}}</string>
 				<string key="NSMaxSize">{1.79769e+308, 1.79769e+308}</string>
@@ -443,6 +434,25 @@
 					<object class="NSMenuItem" id="204019657">
 						<reference key="NSMenu" ref="1029328655"/>
 						<string key="NSTitle">Quit SiteMonitor</string>
+						<string key="NSKeyEquiv"/>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="35465992"/>
+						<reference key="NSMixedImage" ref="502551668"/>
+					</object>
+					<object class="NSMenuItem" id="88135882">
+						<reference key="NSMenu" ref="1029328655"/>
+						<bool key="NSIsDisabled">YES</bool>
+						<bool key="NSIsSeparator">YES</bool>
+						<string key="NSTitle"/>
+						<string key="NSKeyEquiv"/>
+						<int key="NSKeyEquivModMask">1048576</int>
+						<int key="NSMnemonicLoc">2147483647</int>
+						<reference key="NSOnImage" ref="35465992"/>
+						<reference key="NSMixedImage" ref="502551668"/>
+					</object>
+					<object class="NSMenuItem" id="238522557">
+						<reference key="NSMenu" ref="1029328655"/>
+						<string key="NSTitle">About SiteMonitor</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSMnemonicLoc">2147483647</int>
 						<reference key="NSOnImage" ref="35465992"/>
@@ -677,12 +687,12 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{335, 308}, {495, 442}}</string>
 				<int key="NSWTFlags">1954021376</int>
-				<string key="NSWindowTitle">SiteMonitor New</string>
+				<string key="NSWindowTitle">SiteMonitor Preferences</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<string key="NSWindowContentMaxSize">{1.79769e+308, 1.79769e+308}</string>
 				<object class="NSView" key="NSWindowView" id="377402212">
-					<reference key="NSNextResponder"/>
+					<nil key="NSNextResponder"/>
 					<int key="NSvFlags">319</int>
 					<object class="NSMutableArray" key="NSSubviews">
 						<bool key="EncodedWithXMLCoder">YES</bool>
@@ -940,7 +950,6 @@
 									</object>
 									<string key="NSFrame">{{1, 17}, {469, 302}}</string>
 									<reference key="NSSuperview" ref="1038206265"/>
-									<reference key="NSNextKeyView" ref="598974574"/>
 									<reference key="NSDocView" ref="598974574"/>
 									<reference key="NSBGColor" ref="623072440"/>
 									<int key="NScvFlags">4</int>
@@ -973,7 +982,6 @@
 									</object>
 									<string key="NSFrame">{{1, 0}, {469, 17}}</string>
 									<reference key="NSSuperview" ref="1038206265"/>
-									<reference key="NSNextKeyView" ref="1003812888"/>
 									<reference key="NSDocView" ref="1003812888"/>
 									<reference key="NSBGColor" ref="623072440"/>
 									<int key="NScvFlags">4</int>
@@ -982,7 +990,6 @@
 							</object>
 							<string key="NSFrame">{{12, 50}, {471, 320}}</string>
 							<reference key="NSSuperview" ref="377402212"/>
-							<reference key="NSNextKeyView" ref="606226207"/>
 							<int key="NSsFlags">562</int>
 							<reference key="NSVScroller" ref="16408934"/>
 							<reference key="NSHScroller" ref="844962518"/>
@@ -1091,7 +1098,6 @@
 						</object>
 					</object>
 					<string key="NSFrameSize">{495, 442}</string>
-					<reference key="NSSuperview"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 778}}</string>
 				<string key="NSMaxSize">{1.79769e+308, 1.79769e+308}</string>
@@ -1602,7 +1608,6 @@
 						<reference key="object" ref="110575045"/>
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="238522557"/>
 							<reference ref="755159360"/>
 							<reference ref="908899353"/>
 							<reference ref="632727374"/>
@@ -1615,11 +1620,6 @@
 							<reference ref="342932134"/>
 						</object>
 						<reference key="parent" ref="694149608"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">58</int>
-						<reference key="object" ref="238522557"/>
-						<reference key="parent" ref="110575045"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">134</int>
@@ -1786,6 +1786,8 @@
 							<reference ref="872818807"/>
 							<reference ref="762421047"/>
 							<reference ref="845793870"/>
+							<reference ref="238522557"/>
+							<reference ref="88135882"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -2205,6 +2207,16 @@
 						<reference key="object" ref="427934443"/>
 						<reference key="parent" ref="489123722"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">58</int>
+						<reference key="object" ref="238522557"/>
+						<reference key="parent" ref="1029328655"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">744</int>
+						<reference key="object" ref="88135882"/>
+						<reference key="parent" ref="1029328655"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -2374,6 +2386,8 @@
 					<string>729.IBPluginDependency</string>
 					<string>730.IBPluginDependency</string>
 					<string>731.IBPluginDependency</string>
+					<string>744.IBPluginDependency</string>
+					<string>744.ImportedFromIB2</string>
 					<string>81.IBEditorWindowLastContentRect</string>
 					<string>81.IBPluginDependency</string>
 					<string>81.ImportedFromIB2</string>
@@ -2570,6 +2584,8 @@
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
+					<integer value="1"/>
 					<string>{{726, 614}, {133, 23}}</string>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 					<integer value="1"/>
@@ -2596,7 +2612,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">743</int>
+			<int key="maxID">744</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
